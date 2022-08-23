@@ -31,4 +31,4 @@ jobs:
           context: .
           file: ./Dockerfile
           push: true
-          tags: ${{ secrets.DOCKER_HUB_USERNAME }}/test-stafi-node:latest
+          tags: ${{ env.DOCKER_HUB_USERNAME }}/test-stafi-node:latest
