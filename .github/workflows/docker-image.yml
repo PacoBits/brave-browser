@@ -34,7 +34,6 @@ jobs:
         tags: ${{ steps.meta.outputs.tags }}
         labels: ${{ steps.meta.outputs.labels }}
         
-  build:      
     steps:
       - uses: actions/checkout@v2
         name: Check out code
